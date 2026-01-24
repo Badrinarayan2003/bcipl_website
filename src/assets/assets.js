@@ -38,6 +38,18 @@ import course3 from './images/course3.png';
 import cta_girl from './images/cta_girl.png';
 import cta_curves from './images/cta_curves.svg';
 import star from './images/star.png';
+import aboutBanner from './images/aboutBanner.png';
+import visionImg from './images/visionImg.png';
+import missionImg from './images/missionImg.png';
+import securedImg from './images/securedImg.png';
+import partnerImg from './images/partnerImg.png';
+import placementImg from './images/placementImg.png';
+import studentImg from './images/studentImg.png';
+import qualityImg from './images/qualityImg.png';
+import empowermentImg from './images/empowermentImg.png';
+import integrityImg from './images/integrityImg.png';
+import ach2 from './images/ach2.png';
+import ach1 from './images/ach1.png';
 
 
 
@@ -84,5 +96,16 @@ export {
     cta_girl,
     cta_curves,
     star,
-
+    aboutBanner,
+    studentImg,
+    visionImg,
+    missionImg,
+    partnerImg,
+    securedImg,
+    placementImg,
+    integrityImg,
+    empowermentImg,
+    qualityImg,
+    ach2,
+    ach1,
 };

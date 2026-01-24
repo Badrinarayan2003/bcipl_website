@@ -1,98 +1,54 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import {
-    experts1,
-    experts2,
-    experts3,
-    experts4,
-    experts5,
-    experts6,
+    ach1,
+    ach2,
 } from "../../assets/assets";
 
 const experts = [
     {
         name: "Dr. Sourav Basu",
-        role: "Assistant Professor, Faculty of Business",
-        org: "Norbuling Rigter College, Royal University of Bhutan",
-        img: experts1,
-        tags: ["Strategic Management", "Finance", "Marketing"],
-        bg: "bg-[#f2f2f2]",
+        img: ach1,
     },
     {
         name: "Mr. Ranjan Nagarkatte",
-        role: "CEO Intrasoft Solution",
-        org: "14+ years in Banking",
-        img: experts2,
-        tags: ["Risk Management", "Compliance", "Credit Analysis"],
-        bg: "bg-[#ffd2a1]",
+        img: ach2,
     },
     {
         name: "Mr. Arup Dasgupta",
-        role: "Principal Consultant",
-        org: "Ex MD/CEO of LIC Bangladesh",
-        img: experts3,
-        tags: ["Life Insurance", "Underwriting", "Product Marketing"],
-        bg: "bg-[#dff7b5]",
+        img: ach1,
     },
     {
         name: "Meena Gupta",
-        role: "Assistant Professor, Faculty of Business",
-        org: "Norbuling Rigter College, Royal University of Bhutan",
-        img: experts4,
-        tags: ["Strategic Management", "Finance", "Marketing"],
-        bg: "bg-[#bfe6ff]",
+        img: ach2,
     },
     {
         name: "Meena Gupta",
-        role: "Assistant Professor, Faculty of Business",
-        org: "Norbuling Rigter College, Royal University of Bhutan",
-        img: experts5,
-        tags: ["Strategic Management", "Finance", "Marketing"],
-        bg: "bg-[#bfe6ff]",
+        img: ach1,
     },
     {
         name: "Meena Gupta",
-        role: "Assistant Professor, Faculty of Business",
-        org: "Norbuling Rigter College, Royal University of Bhutan",
-        img: experts6,
-        tags: ["Strategic Management", "Finance", "Marketing"],
-        bg: "bg-[#bfe6ff]",
+        img: ach2,
     },
     {
         name: "Meena Gupta",
-        role: "Assistant Professor, Faculty of Business",
-        org: "Norbuling Rigter College, Royal University of Bhutan",
-        img: experts1,
-        tags: ["Strategic Management", "Finance", "Marketing"],
-        bg: "bg-[#bfe6ff]",
+        img: ach1,
     },
     {
         name: "Meena Gupta",
-        role: "Assistant Professor, Faculty of Business",
-        org: "Norbuling Rigter College, Royal University of Bhutan",
-        img: experts2,
-        tags: ["Strategic Management", "Finance", "Marketing"],
-        bg: "bg-[#bfe6ff]",
+        img: ach2,
     },
     {
         name: "Meena Gupta",
-        role: "Assistant Professor, Faculty of Business",
-        org: "Norbuling Rigter College, Royal University of Bhutan",
-        img: experts3,
-        tags: ["Strategic Management", "Finance", "Marketing"],
-        bg: "bg-[#bfe6ff]",
+        img: ach1,
     },
     {
         name: "Meena Gupta",
-        role: "Assistant Professor, Faculty of Business",
-        org: "Norbuling Rigter College, Royal University of Bhutan",
-        img: experts4,
-        tags: ["Strategic Management", "Finance", "Marketing"],
-        bg: "bg-[#bfe6ff]",
+        img: ach2,
     },
 ];
 
-export default function ExpertsSlider() {
+export default function Achievements() {
     const [index, setIndex] = useState(0);
     const [visibleCount, setVisibleCount] = useState(4);
 
@@ -127,11 +83,8 @@ export default function ExpertsSlider() {
                 {/* Header */}
                 <div className="text-center mb-12">
                     <h2 className="text-3xl lg:text-4xl font-bold text-black">
-                        Learn from Industry Experts
+                        Achievements
                     </h2>
-                    <p className="text-gray-500 mt-2">
-                        Your instructors are seasoned professionals bringing real-world experience directly to your learning
-                    </p>
                 </div>
 
                 {/* Slider */}
@@ -147,40 +100,24 @@ export default function ExpertsSlider() {
                         {experts.map((item, i) => (
                             <div
                                 key={i}
-                                className="min-w-full sm:min-w-[50%] lg:min-w-[25%] px-3"
+                                className="px-3 flex-shrink-0"
                             >
-                                {/* CARD */}
-                                <div className="bg-white rounded-3xl p-4 shadow hover:shadow-lg transition h-[500px] flex flex-col">
 
-                                    {/* Image */}
-                                    <div className={`relative overflow-hidden rounded-[24px] ${item.bg}`}>
+                                {/* CARD */}
+                                <div className="bg-white rounded-3xl shadow hover:shadow-lg transition h-[450px] flex items-center justify-center">
+
+                                    <div className="relative overflow-hidden rounded-[24px] h-full flex items-center justify-center">
                                         <img
                                             src={item.img}
-                                            alt={item.name}
-                                            className="w-full h-[300px] object-cover"
+                                            alt="Achievement"
+                                            className="h-full w-auto max-w-none object-contain"
                                         />
                                     </div>
 
-                                    {/* Content */}
-                                    <div className="mt-4 flex-1 flex flex-col">
-                                        <h3 className="font-bold text-lg">{item.name}</h3>
-                                        <p className="text-sm text-secondary font-semibold">{item.role}</p>
-                                        <p className="text-xs text-gray-500 mt-1">{item.org}</p>
-
-                                        {/* Tags */}
-                                        <div className="flex flex-wrap gap-2 mt-3 mt-auto">
-                                            {item.tags.map((t, idx) => (
-                                                <span
-                                                    key={idx}
-                                                    className="text-xs bg-orange-100 text-primary px-3 py-1 rounded-full"
-                                                >
-                                                    {t}
-                                                </span>
-                                            ))}
-                                        </div>
-                                    </div>
-
                                 </div>
+
+
+
                             </div>
                         ))}
                     </div>

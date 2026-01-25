@@ -50,6 +50,15 @@ import empowermentImg from './images/empowermentImg.png';
 import integrityImg from './images/integrityImg.png';
 import ach2 from './images/ach2.png';
 import ach1 from './images/ach1.png';
+import courseAbout1 from './images/courseAbout1.png';
+import courseBanner1 from './images/courseBanner1.png';
+import pathImg from './images/pathImg.png';
+import cc1 from './images/cc1.png';
+import cc2 from './images/cc2.png';
+import cc3 from './images/cc3.png';
+import cc4 from './images/cc4.png';
+import cc5 from './images/cc5.png';
+import cc6 from './images/cc6.png';
 
 
 
@@ -108,4 +117,13 @@ export {
     qualityImg,
     ach2,
     ach1,
+    courseBanner1,
+    courseAbout1,
+    pathImg,
+    cc1,
+    cc2,
+    cc3,
+    cc4,
+    cc5,
+    cc6,
 };

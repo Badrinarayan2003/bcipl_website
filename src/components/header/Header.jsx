@@ -88,7 +88,10 @@ export default function Header() {
                     </Link>
 
                     <Dropdown title="About" items={aboutMenu} />
-                    <Dropdown title="Courses" items={courses} />
+                    <Dropdown title="Courses" items={courses.map(c => ({
+                        ...c,
+                        slug: `/courses/${c.slug}`
+                    }))} />
                     <Dropdown title="Recourses" items={resourcesMenu} />
 
                     <Link to="/contact" className="font-medium cursor-pointer hover:text-primary transition">
@@ -178,7 +181,7 @@ export default function Header() {
                                     }`}
                             >
                                 {courses.map((i, idx) => (
-                                    <Link key={idx} to={i.slug} className="block">
+                                    <Link key={idx} to={`/courses/${i.slug}`} className="block">
                                         {i.label}
                                     </Link>
                                 ))}

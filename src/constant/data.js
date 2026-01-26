@@ -5,6 +5,10 @@ export const courses = [
     {
         slug: "banking-next-career-program",
 
+        enrollment: {
+            titlePrefix: "Course:",
+        },
+
         hero: {
             title: "Banking Next Career Program",
             subtitle: "Master modern banking operations, compliance, KYC, and customer service essentials.",
@@ -48,6 +52,9 @@ export const courses = [
     // ========================= MUTUAL FUND =========================
     {
         slug: "mutual-fund-career-program",
+        enrollment: {
+            titlePrefix: "Course:",
+        },
 
         hero: {
             title: "Mutual Fund Career Program",
@@ -92,6 +99,9 @@ export const courses = [
     // ========================= INSURANCE =========================
     {
         slug: "insurance-xpert-career-program",
+        enrollment: {
+            titlePrefix: "Course:",
+        },
 
         hero: {
             title: "Insurance Xpert Career Program",

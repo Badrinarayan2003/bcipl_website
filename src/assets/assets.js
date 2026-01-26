@@ -59,6 +59,8 @@ import cc3 from './images/cc3.png';
 import cc4 from './images/cc4.png';
 import cc5 from './images/cc5.png';
 import cc6 from './images/cc6.png';
+import ef from './images/ef.png';
+import b from './images/b.png';
 
 
 
@@ -126,4 +128,6 @@ export {
     cc4,
     cc5,
     cc6,
+    ef,
+    b,
 };

@@ -9,6 +9,7 @@ import CourseCoreValuesSection from "../../components/courseCoreValuesSection/Co
 import FAQSection from "../../components/fAQSection/FAQSection";
 import ReadyToTransform from "../../components/readyToTransform/ReadyToTransform";
 import Footer from "../../components/footer/Footer";
+import CourseEnrollment from "../../components/courseEnrollment/CourseEnrollment";
 
 export default function Course() {
     const { slug } = useParams();
@@ -37,7 +38,7 @@ export default function Course() {
 
             <ReadyToTransform />
 
-
+            <CourseEnrollment course={course} />
             <Footer />
         </>
     );

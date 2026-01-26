@@ -32,7 +32,7 @@ export default function Home() {
             <CourseOfferingsSlider />
             <ReadyToTransform />
             <GetInTouch />
-            <Footer/>
+            <Footer />
         </>
     )
 }

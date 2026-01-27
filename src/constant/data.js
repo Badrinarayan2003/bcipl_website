@@ -242,6 +242,14 @@ export const announcementHeroData = {
     subtitle: "Your career upgrade starts NOW! BCIPL is launching its next batch with supercharged training, hands-on projects, and placement-focused learning in Banking, Finance & Stock Market fields. If you dream of a high-growth career, this is YOUR moment. Limited seats • High-demand programs • Expert trainers Admissions now OPEN!",
     image: ancBanner1,
 };
+
+export const AdmissionHeroData = {
+    title: "Admission",
+    subtitle: "At BCIPL, our admission process is simple, transparent, and student-friendly. We guide students from course selection to enrollment, helping them upgrade their skills and build a successful career in finance.",
+    image: ancBanner1,
+};
+
+
 export const contactHeroData = {
     title: "Enroll Now & Begin Your Banking & Finance Career",
     subtitle: "Secure your seat in India’s leading BFSI Career Programs - Upgrade, Upskill, and Uplift your future.",
@@ -256,7 +264,12 @@ export const policyHeroData = {
     title: "Privacy Policy",
     subtitle: "Please read this Privacy Policy carefully to understand how BCIPL collects, uses, stores, and protects your personal information.",
     image: terms,
+};
 
+export const schoolarshipHeroData = {
+    title: "BCIPL Scholarship",
+    subtitle: "At BCIPL, we ensure financial limitations never become a barrier to success. Our scholarship programs offer fee concessions based on merit, need, and special categories, helping students upgrade their skills and build a strong future in the finance industry.",
+    image: terms,
 };
 
 

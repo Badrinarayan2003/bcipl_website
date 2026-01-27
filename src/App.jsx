@@ -10,6 +10,8 @@ import Terms from './screens/terms/Terms'
 import Policy from './screens/policy/Policy'
 import ScrollToTop from './util/ScrollToTop'
 import NotFound from './screens/notFound/NotFound'
+import Scholarship from './screens/scholarship/Scholarship'
+import Admission from './screens/admission/Admission'
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy-policy" element={<Policy />} />
+        <Route path="/resources/scholarship" element={<Scholarship />} />
+        <Route path="/resources/admission" element={<Admission />} />
 
 
         {/* 404 CATCH ALL */}

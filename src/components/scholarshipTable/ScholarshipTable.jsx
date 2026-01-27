@@ -37,12 +37,15 @@ export default function ScholarshipTable() {
                 </div>
 
                 {/* Table Card */}
-                <div className="relative overflow-hidden rounded-3xl border border-primary/20 dark:border-slate-700 bg-white/70 dark:bg-slate-900/60 backdrop-blur-xl shadow-2xl">
+                {/* <div className="relative overflow-hidden rounded-3xl border border-primary/20 dark:border-slate-700 bg-white/70 dark:bg-slate-900/60 backdrop-blur-xl shadow-2xl"> */}
+                <div className="relative overflow-hidden rounded-3xl border border-primary/20 dark:border-slate-700 bg-white/70 dark:bg-slate-900/60 backdrop-blur-xl shadow-2xl min-h-[370px]">
 
                     {/* Glow Effect */}
                     <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-primary/10 pointer-events-none"></div>
 
-                    <div className="relative overflow-x-auto">
+                    {/* <div className="relative overflow-x-auto"> */}
+                    <div className="relative overflow-x-auto max-h-[370px] overflow-y-auto">
+
                         <table className="w-full text-left text-sm">
 
                             {/* Table Head */}

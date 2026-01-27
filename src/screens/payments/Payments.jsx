@@ -4,15 +4,16 @@ import Footer from '../../components/footer/Footer'
 import GetInTouch from '../../components/getInTouch/GetInTouch'
 import ReadyToTransform from '../../components/readyToTransform/ReadyToTransform'
 import AnnouncementHero from '../../components/announcementHero/AnnouncementHero'
-import { admissionGuideData, AdmissionHeroData } from '../../constant/data'
-import AddmissionDetails from '../../components/addmissionDetails/AddmissionDetails'
+import { paymentHeroData } from '../../constant/data'
+import BCIPLPaymentDetails from '../../components/bCIPLPaymentDetails/BCIPLPaymentDetails'
 
-export default function Admission() {
+export default function Payments() {
     return (
         <>
             <Header />
-            <AnnouncementHero hero={AdmissionHeroData} />
-            <AddmissionDetails data={admissionGuideData} />
+            <AnnouncementHero hero={paymentHeroData} />
+<BCIPLPaymentDetails/>
+
             <ReadyToTransform />
             <GetInTouch />
             <Footer />

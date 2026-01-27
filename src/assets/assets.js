@@ -74,6 +74,8 @@ import avatar4 from './images/avatar4.png';
 import avatar5 from './images/avatar5.png';
 import avatar6 from './images/avatar6.png';
 import terms from './images/terms.png';
+import yesBankLogo from './images/yesBankLogo.png';
+import hdfcLogo from './images/hdfcLogo.png';
 
 
 
@@ -156,5 +158,7 @@ export {
     avatar5,
     avatar6,
     terms,
+    hdfcLogo,
+    yesBankLogo,
 
 };

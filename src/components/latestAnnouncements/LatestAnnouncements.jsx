@@ -68,8 +68,6 @@ export default function LatestAnnouncements({ data }) {
                             />
                         </div>
 
-                        {/* Decorative lines (optional, matches UI feel) */}
-                        <div className="absolute -bottom-8 -right-8 w-48 h-48 border-2 border-gray-200 rounded-3xl opacity-40 hidden lg:block"></div>
 
                     </div>
 

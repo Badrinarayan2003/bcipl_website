@@ -12,6 +12,7 @@ import ScrollToTop from './util/ScrollToTop'
 import NotFound from './screens/notFound/NotFound'
 import Scholarship from './screens/scholarship/Scholarship'
 import Admission from './screens/admission/Admission'
+import Payments from './screens/payments/Payments'
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/privacy-policy" element={<Policy />} />
         <Route path="/resources/scholarship" element={<Scholarship />} />
         <Route path="/resources/admission" element={<Admission />} />
+        <Route path="/resources/payments-details" element={<Payments />} />
 
 
         {/* 404 CATCH ALL */}

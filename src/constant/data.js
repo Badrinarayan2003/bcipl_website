@@ -1,4 +1,4 @@
-import { ancBanner1, ancbn, avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, cc1, cc2, cc3, cc4, cc5, cc6, contactHero, courseAbout1, courseBanner1, p1, p2, p3, terms } from "../assets/assets";
+import { ancBanner1, ancbn, avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, cc1, cc2, cc3, cc4, cc5, cc6, contactHero, courseAbout1, courseBanner1, p1, p2, p3, terms, visionImg } from "../assets/assets";
 
 export const courses = [
     // ========================= BANKING =========================
@@ -249,6 +249,12 @@ export const AdmissionHeroData = {
     image: ancBanner1,
 };
 
+export const paymentHeroData = {
+    title: "Payment Details",
+    subtitle: "BCIPL provides a secure and transparent fee payment process with flexible options, ensuring a smooth and hassle-free enrollment experience for every student.",
+    image: ancBanner1,
+};
+
 
 export const contactHeroData = {
     title: "Enroll Now & Begin Your Banking & Finance Career",
@@ -305,9 +311,81 @@ export const latestAnnouncementsData = {
     ],
 };
 
+export const admissionData = {
+    title: "Latest Announcements",
+    subtitle: "Everything you need to succeed in banking, finance, and fintech",
+
+    image: ancbn,
+
+    items: [
+        {
+            title: "Admission open for 2026 Session",
+            description:
+                "Admissions for the 2026 academic session are now open. Interested students can apply through the BCIPL Admission Portal by filling out the online application form. Please ensure all required documents are uploaded and details are submitted accurately to complete your registration process.",
+            icon: p3
+        },
+        {
+            title: "New LMS Login Walkthrough Available",
+            description:
+                "A step-by-step LMS Login Walkthrough PDF is now available on the website. Use this guide to understand secure access to your notes and learning material.",
+            icon: p2
+        },
+        {
+            title: "About Notices & Announcements",
+            description:
+                "Communication is a key part of our student support system. BCIPL provides daily updates through LMS, SMS, email, and WhatsApp to ensure students stay informed about course details, syllabus updates, important dates, and academic activities.",
+            icon: p1
+        },
+    ],
+};
 
 
 
+export const admissionGuideData = {
+    title: "How to Get Admission at BCIPL",
+    subtitle:
+        "BCIPL offers a simple and student-friendly admission process. Register on our website and follow the guided steps-our counselors are available at every stage to ensure a smooth experience.",
+
+    image: ancbn,
+
+    items: [
+        {
+            title: "Step-by-Step Guide",
+            type: "steps",
+            list: [
+                "After registration, create your DEB ID and enter personal details.",
+                "Pay the registration fee of ₹1000.",
+                "Upload all required documents and mark sheets.",
+                "Pay the course fee (Semester-wise, annually, or full course).",
+                "This confirms your admission.",
+                "If applying for a Scholarship, contact our counselors to receive a Promo Code for fee reduction."
+            ],
+            icon: p1
+        },
+        {
+            title: "How to Create a DEB ID?",
+            type: "steps",
+            list: [
+                "Create your ABC ID on DigiLocker (website or app).",
+                "Use the BCIPL portal link to log in with your ABC ID and activate your DEB ID."
+            ],
+            icon: p2
+        },
+        {
+            title: "Benefits After Admission",
+            type: "pills",
+            list: [
+                "LMS Access",
+                "Live Videos",
+                "Help Center",
+                "Alumni Meet",
+                "Workshops / Seminars",
+                "Online Support"
+            ],
+            icon: p3
+        },
+    ],
+};
 
 
 export const successStoriesData = {

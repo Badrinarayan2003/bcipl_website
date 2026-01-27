@@ -12,34 +12,45 @@ const courses = [
         desc: "Learn fund types, SIP strategies, risk profiling, and AMFI-ready advisory skills.",
         img: course2,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
+        slug: "/courses/mutual-fund-career-program"
     },
     {
         title: "Banking Next Career Program",
         desc: "Master modern banking operations, compliance, KYC, and customer service essentials.",
         img: course2,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
+        slug: "/courses/banking-next-career-program"
     },
     {
         title: "Insurance Xpert Career Program",
         desc: "Build expertise in life, health, motor, and corporate insurance advisory.",
         img: course3,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
+        slug: "/courses/insurance-xpert-career-program"
     },
     {
         title: "GST & Tax Career Program",
         desc: "Learn GST filing, taxation compliance, returns, and professional practice.",
         img: course2,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
+        slug: "/courses/gst-tax-career-program"
     },
     {
         title: "Trade Xpert Career Program",
         desc: "Master stock market trading, technical analysis, and risk management.",
         img: course3,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
+        slug: "/courses/trade-xpert-career-program"
     },
 ];
 
+import { useNavigate } from "react-router-dom";
+
 export default function CourseOfferingsSlider() {
+
+    const navigate = useNavigate()
+
+
     const [index, setIndex] = useState(0);
     const [visibleCount, setVisibleCount] = useState(3);
 
@@ -161,7 +172,9 @@ export default function CourseOfferingsSlider() {
                                                 Brochure <ArrowUpRight size={14} />
                                             </button>
 
-                                            <button className="bg-primary text-white px-4 py-2 rounded-lg text-sm font-semibold flex items-center gap-1 hover:opacity-90 cursor-pointer">
+                                            <button className="bg-primary text-white px-4 py-2 rounded-lg text-sm font-semibold flex items-center gap-1 hover:opacity-90 cursor-pointer"
+                                                onClick={() => navigate(item.slug)}
+                                            >
                                                 View Course <ArrowUpRight size={14} />
                                             </button>
                                         </div>

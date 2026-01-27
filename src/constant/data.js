@@ -252,6 +252,12 @@ export const termsHeroData = {
     subtitle: "Please read the Terms & Conditions carefully before using BCIPL’s Website, services, online learning platform, or enrolling for any program.",
     image: terms,
 };
+export const policyHeroData = {
+    title: "Privacy Policy",
+    subtitle: "Please read this Privacy Policy carefully to understand how BCIPL collects, uses, stores, and protects your personal information.",
+    image: terms,
+
+};
 
 
 

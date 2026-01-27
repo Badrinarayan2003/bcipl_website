@@ -79,27 +79,46 @@ export default function Footer() {
             <h4 className="font-bold mb-4">Programs</h4>
             <ul className="space-y-2 text-gray-600 text-sm">
               <li>
-                <Link to="/courses/banking-next" className="hover:text-primary cursor-pointer transition">
+                <Link
+                  to="/courses/banking-next-career-program"
+                  className="hover:text-primary cursor-pointer transition"
+                >
                   Banking Next Career Program
                 </Link>
               </li>
+
               <li>
-                <Link to="/courses/mutual-fund" className="hover:text-primary cursor-pointer transition">
+                <Link
+                  to="/courses/mutual-fund-career-program"
+                  className="hover:text-primary cursor-pointer transition"
+                >
                   Mutual Fund Career Program
                 </Link>
               </li>
+
               <li>
-                <Link to="/courses/insurance-xpert" className="hover:text-primary cursor-pointer transition">
+                <Link
+                  to="/courses/insurance-xpert-career-program"
+                  className="hover:text-primary cursor-pointer transition"
+                >
                   Insurance Xpert Career Program
                 </Link>
               </li>
+
               <li>
-                <Link to="/courses/gst-tax" className="hover:text-primary cursor-pointer transition">
+                <Link
+                  to="/courses/gst-tax-career-program"
+                  className="hover:text-primary cursor-pointer transition"
+                >
                   G.S.T & TAX Career Program
                 </Link>
               </li>
+
               <li>
-                <Link to="/courses/trade-xpert" className="hover:text-primary cursor-pointer transition">
+                <Link
+                  to="/courses/trade-xpert-career-program"
+                  className="hover:text-primary cursor-pointer transition"
+                >
                   Trade Xpert Career Program
                 </Link>
               </li>

@@ -3,15 +3,15 @@ import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 import ReadyToTransform from '../../components/readyToTransform/ReadyToTransform'
 import AnnouncementHero from '../../components/announcementHero/AnnouncementHero'
-import { termsHeroData } from '../../constant/data'
-import TermSection from '../../components/termSection/TermSection'
+import { policyHeroData } from '../../constant/data'
+import PolicySection from '../../components/policySection/PolicySection'
 
-export default function Terms() {
+export default function Policy() {
     return (
         <>
             <Header />
-            <AnnouncementHero hero={termsHeroData} />
-            <TermSection />
+            <AnnouncementHero hero={policyHeroData} />
+            <PolicySection />
             <ReadyToTransform />
             <Footer />
         </>

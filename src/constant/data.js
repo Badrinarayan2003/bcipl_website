@@ -1,4 +1,4 @@
-import { cc1, cc2, cc3, cc4, cc5, cc6, courseAbout1, courseBanner1 } from "../assets/assets";
+import { ancBanner1, ancbn, avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, cc1, cc2, cc3, cc4, cc5, cc6, contactHero, courseAbout1, courseBanner1, p1, p2, p3, terms } from "../assets/assets";
 
 export const courses = [
     // ========================= BANKING =========================
@@ -231,3 +231,106 @@ export const courses = [
         },
     },
 ];
+
+
+
+
+
+
+export const announcementHeroData = {
+    title: "Announcements",
+    subtitle: "Your career upgrade starts NOW! BCIPL is launching its next batch with supercharged training, hands-on projects, and placement-focused learning in Banking, Finance & Stock Market fields. If you dream of a high-growth career, this is YOUR moment. Limited seats • High-demand programs • Expert trainers Admissions now OPEN!",
+    image: ancBanner1,
+};
+export const contactHeroData = {
+    title: "Enroll Now & Begin Your Banking & Finance Career",
+    subtitle: "Secure your seat in India’s leading BFSI Career Programs - Upgrade, Upskill, and Uplift your future.",
+    image: contactHero,
+};
+export const termsHeroData = {
+    title: "Terms & Conditions",
+    subtitle: "Please read the Terms & Conditions carefully before using BCIPL’s Website, services, online learning platform, or enrolling for any program.",
+    image: terms,
+};
+
+
+
+
+
+
+export const latestAnnouncementsData = {
+    title: "Latest Announcements",
+    subtitle: "Everything you need to succeed in banking, finance, and fintech",
+
+    image: ancbn,
+
+    items: [
+        {
+            title: "Admission open for 2026 Session",
+            description:
+                "Admissions for the 2026 academic session are now open. Interested students can apply through the BCIPL Admission Portal by filling out the online application form. Please ensure all required documents are uploaded and details are submitted accurately to complete your registration process.",
+            icon: p3
+        },
+        {
+            title: "New LMS Login Walkthrough Available",
+            description:
+                "A step-by-step LMS Login Walkthrough PDF is now available on the website. Use this guide to understand secure access to your notes and learning material.",
+            icon: p2
+        },
+        {
+            title: "About Notices & Announcements",
+            description:
+                "Communication is a key part of our student support system. BCIPL provides daily updates through LMS, SMS, email, and WhatsApp to ensure students stay informed about course details, syllabus updates, important dates, and academic activities.",
+            icon: p1
+        },
+    ],
+};
+
+
+
+
+
+
+export const successStoriesData = {
+    title: "Success Stories",
+    subtitle: "What our learners say about the BCTFL experience",
+
+    items: [
+        {
+            name: "Ronny",
+            avatar: avatar1,
+            rating: 5,
+            text: "BCIPL offers hands-on, industry-focused training with very supportive faculty. The concepts are explained in a simple and practical way, which really helped build my confidence. The learning environment is excellent.",
+        },
+        {
+            name: "Vivek Singh",
+            avatar: avatar2,
+            rating: 5,
+            text: "As a struggling job seeker, I was completely confused and unsure about my career path. BCIPL gave me the right direction, practical skills, and the confidence I was missing.",
+        },
+        {
+            name: "Shreya Patel",
+            avatar: avatar3,
+            rating: 5,
+            text: "After struggling for a long time as a job seeker, BCIPL truly changed my life. The practical training and constant support helped me develop real, usable skills and regain my confidence.",
+        },
+        {
+            name: "Shreya Patel",
+            avatar: avatar4,
+            rating: 5,
+            text: "Krishnakoli Ma’am suggested the Mutual Fund course, and it honestly changed my path. With her guidance, practical training, and full support from BCIPL, I gained clarity and confidence.",
+        },
+        {
+            name: "Anya Desai",
+            avatar: avatar5,
+            rating: 5,
+            text: "The faculty and mentorship at BCIPL are truly the best in Kolkata. The way they teach with real-life practical examples makes a huge difference. It honestly feels like they care.",
+        },
+        {
+            name: "Vivek Singh",
+            avatar: avatar6,
+            rating: 5,
+            text: "Payel Ma’am supported me at every step and always motivated me. He was very helpful and kind. With the training at BCIPL, I slowly gained my confidence and skills.",
+        },
+    ],
+};

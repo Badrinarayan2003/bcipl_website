@@ -61,6 +61,19 @@ import cc5 from './images/cc5.png';
 import cc6 from './images/cc6.png';
 import ef from './images/ef.png';
 import b from './images/b.png';
+import ancBanner1 from './images/ancBanner1.png';
+import ancbn from './images/ancbn.png';
+import p1 from './images/p1.png';
+import p2 from './images/p2.png';
+import p3 from './images/p3.png';
+import contactHero from './images/contactHero.png';
+import avatar1 from './images/avatar1.png';
+import avatar2 from './images/avatar2.png';
+import avatar3 from './images/avatar3.png';
+import avatar4 from './images/avatar4.png';
+import avatar5 from './images/avatar5.png';
+import avatar6 from './images/avatar6.png';
+import terms from './images/terms.png';
 
 
 
@@ -130,4 +143,18 @@ export {
     cc6,
     ef,
     b,
+    ancBanner1,
+    ancbn,
+    p1,
+    p2,
+    p3,
+    contactHero,
+    avatar1,
+    avatar2,
+    avatar3,
+    avatar4,
+    avatar5,
+    avatar6,
+    terms,
+
 };

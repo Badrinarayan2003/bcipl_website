@@ -37,11 +37,11 @@ export default function ReadyToTransform() {
                         </p>
 
                         <div className="mt-8 flex flex-wrap gap-4">
-                            <button className="bg-secondary text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 hover:opacity-90 transition">
+                            <button className="bg-secondary text-white px-6 py-3 rounded-full font-semibold flex cursor-pointer items-center gap-2 hover:opacity-90 transition">
                                 Enroll Today <ArrowUpRight size={18} />
                             </button>
 
-                            <button className="bg-white text-black px-6 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-gray-100 transition">
+                            <button className="bg-white text-black px-6 py-3 rounded-full font-semibold flex items-center cursor-pointer gap-2 hover:bg-gray-100 transition">
                                 Download Curriculum <Download size={18} />
                             </button>
                         </div>

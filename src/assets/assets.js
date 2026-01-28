@@ -76,6 +76,8 @@ import avatar6 from './images/avatar6.png';
 import terms from './images/terms.png';
 import yesBankLogo from './images/yesBankLogo.png';
 import hdfcLogo from './images/hdfcLogo.png';
+import hero_banner2 from './images/hero_banner2.png';
+import hero_banner1 from './images/hero_banner1.png';
 
 
 
@@ -160,5 +162,6 @@ export {
     terms,
     hdfcLogo,
     yesBankLogo,
-
+    hero_banner2,
+    hero_banner1,
 };

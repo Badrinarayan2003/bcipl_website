@@ -13,6 +13,9 @@ import NotFound from './screens/notFound/NotFound'
 import Scholarship from './screens/scholarship/Scholarship'
 import Admission from './screens/admission/Admission'
 import Payments from './screens/payments/Payments'
+import Workshop from './screens/workshop/Workshop'
+import Recruitment from './screens/recruitment/Recruitment'
+import Accreditation from './screens/accreditation/Accreditation'
 
 export default function App() {
   return (
@@ -28,6 +31,9 @@ export default function App() {
         <Route path="/resources/scholarship" element={<Scholarship />} />
         <Route path="/resources/admission" element={<Admission />} />
         <Route path="/resources/payments-details" element={<Payments />} />
+        <Route path="/about/workshop" element={<Workshop />} />
+        <Route path="/about/recruitments" element={<Recruitment />} />
+        <Route path="/about/accreditation" element={<Accreditation />} />
 
 
         {/* 404 CATCH ALL */}

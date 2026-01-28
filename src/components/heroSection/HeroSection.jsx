@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { hero_banner } from "../../assets/assets";
+import { hero_banner ,hero_banner2,hero_banner1} from "../../assets/assets";
 
 const slides = [
     {
@@ -25,7 +25,7 @@ const slides = [
             "Real-world project exposure with 100% placement guarantee.",
             "Mentorship from seasoned finance leaders.",
         ],
-        bg: hero_banner,
+        bg: hero_banner1,
         people: "/students-1.png",
     },
     {
@@ -38,7 +38,7 @@ const slides = [
             "Real-world project exposure with 100% placement guarantee.",
             "Mentorship from seasoned finance leaders.",
         ],
-        bg: hero_banner,
+        bg: hero_banner2,
         people: "/students-1.png",
     },
 ];

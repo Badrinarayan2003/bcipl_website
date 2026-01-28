@@ -243,6 +243,23 @@ export const announcementHeroData = {
     image: ancBanner1,
 };
 
+export const workshopHeroData = {
+    title: "Workshop",
+    subtitle: "BCIPL conducts practical, industry-focused workshops to strengthen students’ financial knowledge through hands-on learning, expert sessions, and real-world activities, helping them build confidence and job-ready skills.",
+    image: ancBanner1,
+};
+export const accreditationsHeroData = {
+    title: "BCIPL x Mangalayatan University",
+    subtitle: "BCIPL empowers future finance professionals through industry-driven training, practical exposure, and expert mentorship to help students upgrade skills and uplift their careers.",
+    image: ancBanner1,
+};
+
+export const recruitmentsHeroData = {
+    title: "Recruitments",
+    subtitle: "At BCIPL, we equip students for the competitive finance industry through mock interviews, resume support, communication training, and domain-focused mentoring. Our industry-aligned guidance boosts confidence and practical skills, while strong placement partnerships and recruitment drives help students begin and grow their careers with clarity.",
+    image: ancBanner1,
+};
+
 export const AdmissionHeroData = {
     title: "Admission",
     subtitle: "At BCIPL, our admission process is simple, transparent, and student-friendly. We guide students from course selection to enrollment, helping them upgrade their skills and build a successful career in finance.",

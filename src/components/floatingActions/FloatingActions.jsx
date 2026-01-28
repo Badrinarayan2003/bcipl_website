@@ -5,17 +5,17 @@ export default function FloatingActions() {
     const actions = [
         {
             img: call,
-            link: "tel:+919999999999",
+            link: "tel:+919038468383",
             alt: "Call",
         },
         {
             img: mail,
-            link: "mailto:info@example.com",
+            link: "mailto:info@bcipl.org",
             alt: "Mail",
         },
         {
             img: whatsapp,
-            link: "/contact",
+            link: "https://wa.me/+919038468383",
             alt: "Contact",
         },
     ];
@@ -27,6 +27,7 @@ export default function FloatingActions() {
                     <a
                         key={i}
                         href={item.link}
+                        target="_blank"
                         className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center shadow-md transition-all duration-300 hover:bg-primary hover:scale-110"
                     >
                         <img

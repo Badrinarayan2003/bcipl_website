@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { hero_banner ,hero_banner2,hero_banner1} from "../../assets/assets";
+import { hero_banner, hero_banner2, hero_banner1 } from "../../assets/assets";
 
 const slides = [
     {
@@ -43,9 +43,12 @@ const slides = [
     },
 ];
 
-
+import { useNavigate } from "react-router-dom";
 
 export default function HeroSection() {
+
+    const navigate = useNavigate();
+
     const [index, setIndex] = useState(0);
     const [typedText, setTypedText] = useState("");
     const [charIndex, setCharIndex] = useState(0);
@@ -119,10 +122,14 @@ export default function HeroSection() {
                         </ul>
 
                         <div className="mt-4 flex gap-4 flex-wrap">
-                            <button className="bg-primary cursor-pointer text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition">
+                            <button className="bg-primary cursor-pointer text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition"
+                                onClick={() => navigate("/contact")}
+                            >
                                 Enroll Now ↗
                             </button>
-                            <button className="bg-secondary cursor-pointer text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition">
+                            <button className="bg-secondary cursor-pointer text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition"
+                                onClick={() => navigate("/courses/banking-next-career-program")}
+                            >
                                 Courses ↗
                             </button>
                         </div>

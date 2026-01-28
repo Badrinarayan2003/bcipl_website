@@ -1,8 +1,12 @@
 import React from "react";
 import { GraduationCap, Trophy, BadgeCheck, FileCheck } from "lucide-react";
 import { star, stats_bg } from "../../assets/assets";
+import { useNavigate } from "react-router-dom";
 
 export default function StatsSection() {
+
+    const navigate = useNavigate();
+
     return (
         <section className="w-full py-12 px-4">
             <div className="max-w-7xl mx-auto">
@@ -44,7 +48,9 @@ export default function StatsSection() {
                                 strong careers and real industry opportunities.
                             </p>
 
-                            <button className="mt-8 bg-primary text-white px-8 py-3 rounded-full font-semibold flex items-center cursor-pointer gap-2 hover:scale-105 transition">
+                            <button className="mt-8 bg-primary text-white px-8 py-3 rounded-full font-semibold flex items-center cursor-pointer gap-2 hover:scale-105 transition"
+                                onClick={() => navigate("/contact")}
+                            >
                                 Enroll Now ↗
                             </button>
                         </div>

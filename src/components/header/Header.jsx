@@ -82,7 +82,7 @@ export default function Header() {
                 </div>
 
                 {/* Desktop Menu */}
-                <div className="hidden lg:flex items-center gap-6 bg-slate-100 px-8 py-3 rounded-full">
+                <div className="hidden lg:flex items-center gap-7 bg-slate-100 px-8 py-3 rounded-full">
                     <Link to="/" className="text-primary cursor-pointer font-semibold">
                         Home
                     </Link>
@@ -102,8 +102,9 @@ export default function Header() {
                 {/* Right Button */}
                 <div className="hidden lg:block">
                     <Link
-                        to="/login"
+                        to="https://nrichlearning.com/"
                         className="bg-primary text-white px-6 py-3 rounded-full flex items-center gap-2 font-semibold hover:scale-105 transition"
+                        target="_blank"
                     >
                         Student Login <ArrowUpRight size={18} />
                     </Link>
@@ -219,8 +220,9 @@ export default function Header() {
                         <Link to="/contact">Contact Us</Link>
 
                         <Link
-                            to="/login"
+                            to="https://nrichlearning.com/"
                             className="mt-6 bg-primary text-white py-3 rounded-full text-center font-semibold"
+                            target="_blank"
                         >
                             Student Login
                         </Link>

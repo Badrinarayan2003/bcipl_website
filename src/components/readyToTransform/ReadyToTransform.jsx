@@ -1,8 +1,12 @@
 import React from "react";
 import { ArrowUpRight, Download } from "lucide-react";
 import { cta_girl, cta_curves, star } from "../../assets/assets";
+import { useNavigate } from "react-router-dom";
 
 export default function ReadyToTransform() {
+
+    const navigate = useNavigate();
+
     return (
         <section className="w-full pb-10 pt-2 px-4">
             <div className="max-w-7xl mx-auto">
@@ -37,13 +41,20 @@ export default function ReadyToTransform() {
                         </p>
 
                         <div className="mt-8 flex flex-wrap gap-4">
-                            <button className="bg-secondary text-white px-6 py-3 rounded-full font-semibold flex cursor-pointer items-center gap-2 hover:opacity-90 transition">
+                            <button className="bg-secondary text-white px-6 py-3 rounded-full font-semibold flex cursor-pointer items-center gap-2 hover:opacity-90 transition"
+                                onClick={() => navigate("/contact")}
+                            >
                                 Enroll Today <ArrowUpRight size={18} />
                             </button>
 
-                            <button className="bg-white text-black px-6 py-3 rounded-full font-semibold flex items-center cursor-pointer gap-2 hover:bg-gray-100 transition">
+                            <a
+                                href="../../assets/images/curriculam.zip"
+                                download
+                                className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-semibold cursor-pointer hover:bg-gray-100 transition"
+                            >
                                 Download Curriculum <Download size={18} />
-                            </button>
+                            </a>
+
                         </div>
                     </div>
 

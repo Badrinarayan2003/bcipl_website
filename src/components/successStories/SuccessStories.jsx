@@ -31,18 +31,6 @@ const stories = [
         rating: 5,
         text: "The mentors at BCIPL are extremely supportive and the course structure is very practical. I finally feel job-ready and confident in interviews.",
     },
-    {
-        name: "Amit Kumar",
-        img: SuccessStories2,
-        rating: 5,
-        text: "The mentors at BCIPL are extremely supportive and the course structure is very practical. I finally feel job-ready and confident in interviews.",
-    },
-    {
-        name: "Amit Kumar",
-        img: SuccessStories3,
-        rating: 5,
-        text: "The mentors at BCIPL are extremely supportive and the course structure is very practical. I finally feel job-ready and confident in interviews.",
-    },
 ];
 
 export default function SuccessStories() {

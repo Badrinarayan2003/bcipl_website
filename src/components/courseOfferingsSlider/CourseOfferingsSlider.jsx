@@ -2,8 +2,12 @@ import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, ArrowUpRight } from "lucide-react";
 
 import {
+    banking,
     course2,
     course3,
+    gst,
+    Insurance,
+    mutual,
 } from "../../assets/assets";
 
 const courses = [
@@ -12,35 +16,40 @@ const courses = [
         desc: "Learn fund types, SIP strategies, risk profiling, and AMFI-ready advisory skills.",
         img: course2,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
-        slug: "/courses/mutual-fund-career-program"
+        slug: "/courses/mutual-fund-career-program",
+        download: mutual
     },
     {
         title: "Banking Next Career Program",
         desc: "Master modern banking operations, compliance, KYC, and customer service essentials.",
         img: course2,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
-        slug: "/courses/banking-next-career-program"
+        slug: "/courses/banking-next-career-program",
+        download: banking
     },
     {
         title: "Insurance Xpert Career Program",
         desc: "Build expertise in life, health, motor, and corporate insurance advisory.",
         img: course3,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
-        slug: "/courses/insurance-xpert-career-program"
+        slug: "/courses/insurance-xpert-career-program",
+        download: Insurance
     },
     {
         title: "GST & Tax Career Program",
         desc: "Learn GST filing, taxation compliance, returns, and professional practice.",
         img: course2,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
-        slug: "/courses/gst-tax-career-program"
+        slug: "/courses/gst-tax-career-program",
+        download: gst
     },
     {
         title: "Trade Xpert Career Program",
         desc: "Master stock market trading, technical analysis, and risk management.",
         img: course3,
         tags: ["BASIC 1 Month", "ADVANCE 3 Months", "PRO 4 Months"],
-        slug: "/courses/trade-xpert-career-program"
+        slug: "/courses/trade-xpert-career-program",
+        download: ""
     },
 ];
 
@@ -168,9 +177,17 @@ export default function CourseOfferingsSlider() {
 
                                         {/* Buttons */}
                                         <div className="mt-auto pt-5 flex items-center justify-between border-t border-gray-200">
-                                            <button className="flex items-center gap-1 text-sm font-semibold hover:underline cursor-pointer">
+                                            {/* <button className="flex items-center gap-1 text-sm font-semibold hover:underline cursor-pointer">
                                                 Brochure <ArrowUpRight size={14} />
-                                            </button>
+                                            </button> */}
+                                            <a
+                                                href={item.download}
+                                                download
+                                                className="flex items-center gap-1 text-sm font-semibold hover:underline cursor-pointer"
+                                            >
+                                                Brochure <ArrowUpRight size={14} />
+                                            </a>
+
 
                                             <button className="bg-primary text-white px-4 py-2 rounded-lg text-sm font-semibold flex items-center gap-1 hover:opacity-90 cursor-pointer"
                                                 onClick={() => navigate(item.slug)}

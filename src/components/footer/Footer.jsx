@@ -8,14 +8,20 @@ import {
   Mail,
   MapPin,
   GraduationCap,
-  BookOpen
+  BookOpen,
+  Linkedin
 } from "lucide-react";
 import { star } from "../../assets/assets";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 
 export default function Footer() {
+  const navigate = useNavigate();
+
+
+
+
   return (
     <footer
       className="relative bg-[#263277] overflow-hidden"
@@ -42,12 +48,16 @@ export default function Footer() {
             </h2>
 
             <div className="mt-6 flex flex-wrap gap-4">
-              <button className="flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-full font-semibold cursor-pointer hover:bg-primary hover:text-white transition">
+              <button className="flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-full font-semibold cursor-pointer hover:bg-primary hover:text-white transition"
+                onClick={() => navigate("/contact")}
+              >
                 <GraduationCap size={18} />
                 Enroll Now
               </button>
 
-              <button className="flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-full font-semibold cursor-pointer hover:bg-primary hover:text-white transition">
+              <button className="flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-full font-semibold cursor-pointer hover:bg-primary hover:text-white transition"
+                onClick={() => navigate("/courses/banking-next-career-program")}
+              >
                 <BookOpen size={18} />
                 Courses
               </button>
@@ -58,11 +68,43 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             <span className="font-semibold text-black">Follow Us:</span>
             <div className="flex gap-4 text-xl text-black">
-              <Facebook className="hover:text-primary cursor-pointer" />
-              <Instagram className="hover:text-primary cursor-pointer" />
-              <X className="hover:text-primary cursor-pointer" />
-              <Youtube className="hover:text-primary cursor-pointer" />
+              <a
+                href="https://www.facebook.com/profile.php?id=61584585207658"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary cursor-pointer"
+              >
+                <Facebook />
+              </a>
+
+              <a
+                href="https://www.instagram.com/bcipl_learning/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary cursor-pointer"
+              >
+                <Instagram />
+              </a>
+
+              <a
+                href="https://www.youtube.com/@bijoymondal5265"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary cursor-pointer"
+              >
+                <Youtube />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/company/bci-professional-learning/posts/?feedView=all"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary cursor-pointer"
+              >
+                <Linkedin />
+              </a>
             </div>
+
           </div>
         </div>
 
@@ -141,11 +183,10 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Legals</h4>
             <ul className="space-y-2 text-gray-600 text-sm">
-              <li><Link to="/privacy" className="hover:text-primary cursor-pointer transition">Privacy & Policies</Link></li>
-              <li><Link to="/refund-policy" className="hover:text-primary cursor-pointer transition">Refund & Cancellation Policy</Link></li>
-              <li><Link to="/disclaimer" className="hover:text-primary cursor-pointer transition">Website disclaimer</Link></li>
-              <li><Link to="/student-agreement" className="hover:text-primary cursor-pointer transition">Student Enrollment Agreement</Link></li>
-              <li><Link to="/code-of-conduct" className="hover:text-primary cursor-pointer transition">Website Code of Conduct</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary cursor-pointer transition">Refund & Cancellation Policy</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary cursor-pointer transition">Website disclaimer</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary cursor-pointer transition">Student Enrollment Agreement</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary cursor-pointer transition">Website Code of Conduct</Link></li>
             </ul>
           </div>
 
@@ -166,7 +207,7 @@ export default function Footer() {
                 <Phone className="text-primary" size={18} />
                 <div>
                   <p className="font-semibold">Admissions Helpline</p>
-                  <p>+91-7969512026</p>
+                  <p>+91 9038468383</p>
                 </div>
               </div>
 

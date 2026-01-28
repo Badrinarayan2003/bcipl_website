@@ -1,4 +1,4 @@
-import { ancBanner1, ancbn, avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, cc1, cc2, cc3, cc4, cc5, cc6, contactHero, courseAbout1, courseBanner1, p1, p2, p3, terms, visionImg } from "../assets/assets";
+import { admission, ancBanner1, ancbn, avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, cc1, cc2, cc3, cc4, cc5, cc6, contactHero, courseAbout1, courseBanner1, p1, p2, p3, payment, scholarship, terms, visionImg, workshop } from "../assets/assets";
 
 export const courses = [
     // ========================= BANKING =========================
@@ -246,7 +246,7 @@ export const announcementHeroData = {
 export const workshopHeroData = {
     title: "Workshop",
     subtitle: "BCIPL conducts practical, industry-focused workshops to strengthen students’ financial knowledge through hands-on learning, expert sessions, and real-world activities, helping them build confidence and job-ready skills.",
-    image: ancBanner1,
+    image: workshop,
 };
 export const accreditationsHeroData = {
     title: "BCIPL x Mangalayatan University",
@@ -263,13 +263,13 @@ export const recruitmentsHeroData = {
 export const AdmissionHeroData = {
     title: "Admission",
     subtitle: "At BCIPL, our admission process is simple, transparent, and student-friendly. We guide students from course selection to enrollment, helping them upgrade their skills and build a successful career in finance.",
-    image: ancBanner1,
+    image: admission,
 };
 
 export const paymentHeroData = {
     title: "Payment Details",
     subtitle: "BCIPL provides a secure and transparent fee payment process with flexible options, ensuring a smooth and hassle-free enrollment experience for every student.",
-    image: ancBanner1,
+    image: payment,
 };
 
 
@@ -292,7 +292,7 @@ export const policyHeroData = {
 export const schoolarshipHeroData = {
     title: "BCIPL Scholarship",
     subtitle: "At BCIPL, we ensure financial limitations never become a barrier to success. Our scholarship programs offer fee concessions based on merit, need, and special categories, helping students upgrade their skills and build a strong future in the finance industry.",
-    image: terms,
+    image: scholarship,
 };
 
 

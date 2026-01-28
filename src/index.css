@@ -20,3 +20,15 @@
       #103190 50%,
       #092471 100%);
 }
+
+
+.gbg {
+  transition: 0.3s ease-in;
+}
+
+.gbg:hover {
+  background: linear-gradient(to left,
+      #1C47C2 0%,
+      #103190 50%,
+      #092471 100%);
+}

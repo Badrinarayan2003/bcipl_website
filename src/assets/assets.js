@@ -78,7 +78,14 @@ import yesBankLogo from './images/yesBankLogo.png';
 import hdfcLogo from './images/hdfcLogo.png';
 import hero_banner2 from './images/hero_banner2.png';
 import hero_banner1 from './images/hero_banner1.png';
-
+import gst from './images/gst.pdf';
+import banking from './images/banking.pdf';
+import Insurance from './images/Insurance.pdf';
+import mutual from './images/mutual.pdf';
+import workshop from './images/workshop.png';
+import payment from './images/payment.png';
+import admission from './images/admission.png';
+import scholarship from './images/scholarship.png';
 
 
 
@@ -164,4 +171,13 @@ export {
     yesBankLogo,
     hero_banner2,
     hero_banner1,
+    Insurance,
+    gst,
+    banking,
+    mutual,
+    workshop,
+    payment,
+    admission,
+    scholarship,
+
 };

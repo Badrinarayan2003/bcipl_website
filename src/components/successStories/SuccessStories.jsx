@@ -21,7 +21,7 @@ const stories = [
         text: "As a struggling job seeker, I was completely confused and unsure about my career path. BCIPL gave me the right direction, practical skills, and the confidence I was missing. The training is...",
     },
     {
-        name: "Shreya Patel",
+        name: "Amit Roy",
         img: SuccessStories3,
         rating: 4,
         text: "After struggling for a long time as a job seeker, BCIPL truly changed my life. The practical training and constant support helped me develop real, usable skills and regain my confidence. Today, I’m...",

@@ -87,6 +87,7 @@ import workshop from './images/workshop.png';
 import payment from './images/payment.png';
 import admission from './images/admission.png';
 import scholarship from './images/scholarship.png';
+import indian_bank from './images/indian_bank.png';
 
 
 
@@ -181,5 +182,6 @@ export {
     admission,
     scholarship,
     SuccessStories4,
+    indian_bank,
 
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { hdfcLogo, yesBankLogo } from "../../assets/assets"; // adjust path if needed
+import { hdfcLogo, yesBankLogo, indian_bank } from "../../assets/assets"; // adjust path if needed
 
 export default function BCIPLPaymentDetails() {
     return (
@@ -17,60 +17,29 @@ export default function BCIPLPaymentDetails() {
                 </div>
 
                 {/* Cards */}
-                <div className="grid md:grid-cols-2 gap-10">
+                <div className="grid md:grid-cols-2 gap-10 justify-center">
 
-                    {/* HDFC BANK */}
+
                     <div className="relative overflow-hidden rounded-3xl border border-primary/20 bg-white/70 backdrop-blur-xl shadow-xl p-8">
-
-                        {/* Glow */}
-                        {/* <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-primary/10 pointer-events-none"></div> */}
-
-                        {/* Header */}
                         <div className="relative flex items-center gap-4 mb-6">
                             <img
-                                src={hdfcLogo}
+                                src={indian_bank}
                                 alt="HDFC Bank"
                                 className="h-15 w-auto object-contain"
                             />
-                            {/* <h3 className="text-2xl font-bold text-slate-900">
-                                HDFC Bank
-                            </h3> */}
+
                         </div>
 
                         <div className="relative space-y-3 text-slate-700">
-                            <p><span className="font-semibold text-primary">Account Name:</span> Mangalayatan University</p>
-                            <p><span className="font-semibold text-primary">Account Number:</span> 50100343182627</p>
-                            <p><span className="font-semibold text-primary">Swift Code:</span> HDFCINBB</p>
-                            <p><span className="font-semibold text-primary">IFSC Code:</span> HDFC0003691</p>
-                            <p><span className="font-semibold text-primary">Bank Address:</span> Aligarh – 202001 (Uttar Pradesh)</p>
+                            <p><span className="font-semibold text-primary">Account Name:</span> BIJOY CAPITAL INSTITUTE OF PROFESSIONAL LEARNING</p>
+                            <p><span className="font-semibold text-primary">Account Number:</span> 8211654264</p>
+                            <p><span className="font-semibold text-primary">IFSC Code:</span> IDIB000B698</p>
+                            <p><span className="font-semibold text-primary">Bank Address:</span> Rajarhat-700135</p>
+                            <p><span className="font-semibold text-primary">Bank Name:</span> INDIAN BANK BATTALA BRANCH</p>
+                            <p><span className="font-semibold text-primary">ACCOUNT TYPE :</span> CURRENT</p>
                         </div>
                     </div>
 
-                    {/* YES BANK */}
-                    <div className="relative overflow-hidden rounded-3xl border border-primary/20 bg-white/70 backdrop-blur-xl shadow-xl p-8">
-
-                        {/* Glow */}
-                        {/* <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-primary/10 pointer-events-none"></div> */}
-
-                        {/* Header */}
-                        <div className="relative flex items-center gap-4 mb-6">
-                            <img
-                                src={yesBankLogo}
-                                alt="Yes Bank"
-                                className="h-13 w-auto object-contain"
-                            />
-                            {/* <h3 className="text-2xl font-bold text-slate-900">
-                                Yes Bank
-                            </h3> */}
-                        </div>
-
-                        <div className="relative space-y-3 text-slate-700">
-                            <p><span className="font-semibold text-primary">Account Name:</span> Mangalayatan University</p>
-                            <p><span className="font-semibold text-primary">Account Number:</span> 008894600001955</p>
-                            <p><span className="font-semibold text-primary">IFSC Code:</span> YESB0000088</p>
-                            <p><span className="font-semibold text-primary">Bank Address:</span> Mangalayatan University, Beswan (Aligarh) UP – 202145</p>
-                        </div>
-                    </div>
 
                 </div>
 

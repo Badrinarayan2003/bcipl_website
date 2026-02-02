@@ -24,10 +24,10 @@ export default function Placement() {
                             { name: "Fullerton India", logo: h2 },
                             { name: "Indiabulls", logo: h3 },
                             { name: "IIFL", logo: h4 },
-                            { name: "TATA Capital", logo: h1 },
-                            { name: "Aditya Birla Capital", logo: h2 },
-                            { name: "ICICI Bank", logo: h3 },
-                            { name: "HDFC Bank", logo: h4 },
+                            // { name: "TATA Capital", logo: h1 },
+                            // { name: "Aditya Birla Capital", logo: h2 },
+                            // { name: "ICICI Bank", logo: h3 },
+                            // { name: "HDFC Bank", logo: h4 },
                         ].map((p, i) => (
                             <div
                                 key={i}

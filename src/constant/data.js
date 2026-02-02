@@ -278,6 +278,9 @@ export const contactHeroData = {
     subtitle: "Secure your seat in India’s leading BFSI Career Programs - Upgrade, Upskill, and Uplift your future.",
     image: contactHero,
 };
+
+
+
 export const termsHeroData = {
     title: "Terms & Conditions",
     subtitle: "Please read the Terms & Conditions carefully before using BCIPL’s Website, services, online learning platform, or enrolling for any program.",
@@ -291,7 +294,7 @@ export const policyHeroData = {
 
 export const schoolarshipHeroData = {
     title: "BCIPL Scholarship",
-    subtitle: "At BCIPL, we ensure financial limitations never become a barrier to success. Our scholarship programs offer fee concessions based on merit, need, and special categories, helping students upgrade their skills and build a strong future in the finance industry.",
+    subtitle: "BCIPL is proud to launch a special Merit Scholarship Program dedicated to supporting talented students from humble families. Students with a yearly family income of less than ₹3,00,000 are eligible to apply. As a gesture of gratitude to society, this scholarship will be awarded to one meritorious student per batch. Our aim is to ensure that deserving learners with strong potential receive the opportunity to build a successful career without financial barriers.",
     image: scholarship,
 };
 
@@ -358,39 +361,124 @@ export const admissionData = {
 
 
 
+// export const admissionGuideData = {
+//     title: "How to Get Admission at BCIPL",
+//     subtitle:
+//         "BCIPL offers a simple and student-friendly admission process. Register on our website and follow the guided steps-our counselors are available at every stage to ensure a smooth experience.",
+
+//     image: ancbn,
+
+//     items: [
+//         {
+//             title: "Step-by-Step Guide",
+//             type: "steps",
+//             list: [
+//                 "After registration, create your DEB ID and enter personal details.",
+//                 "Pay the registration fee of ₹1000.",
+//                 "Upload all required documents and mark sheets.",
+//                 "Pay the course fee (Semester-wise, annually, or full course).",
+//                 "This confirms your admission.",
+//                 "If applying for a Scholarship, contact our counselors to receive a Promo Code for fee reduction."
+//             ],
+//             icon: p1
+//         },
+//         {
+//             title: "Benefits After Admission",
+//             type: "pills",
+//             list: [
+//                 "LMS Access",
+//                 "Live Videos",
+//                 "Help Center",
+//                 "Alumni Meet",
+//                 "Workshops / Seminars",
+//                 "Online Support"
+//             ],
+//             icon: p3
+//         },
+//     ],
+// };
+
 export const admissionGuideData = {
     title: "How to Get Admission at BCIPL",
     subtitle:
-        "BCIPL offers a simple and student-friendly admission process. Register on our website and follow the guided steps-our counselors are available at every stage to ensure a smooth experience.",
+        "BCIPL offers a simple and student-friendly admission process. Register on our website and follow the guided steps—our counselors are available at every stage to ensure a smooth experience.",
 
     image: ancbn,
 
     items: [
         {
             title: "Step-by-Step Guide",
-            type: "steps",
+            type: "detailedSteps",
+            icon: p1,
             list: [
-                "After registration, create your DEB ID and enter personal details.",
-                "Pay the registration fee of ₹1000.",
-                "Upload all required documents and mark sheets.",
-                "Pay the course fee (Semester-wise, annually, or full course).",
-                "This confirms your admission.",
-                "If applying for a Scholarship, contact our counselors to receive a Promo Code for fee reduction."
+                {
+                    step: "Step 1",
+                    title: "Enquire",
+                    description:
+                        "Contact BCIPL via phone, email, or website form to request course details and dates. Attend an information session or webinar (optional)."
+                },
+                {
+                    step: "Step 2",
+                    title: "Choose Program",
+                    description:
+                        "Select the course (Banking, Mutual Funds, Insurance, GST & Tax, Share Market, etc.) and choose your preferred batch/timing."
+                },
+                {
+                    step: "Step 3",
+                    title: "Check Eligibility",
+                    description:
+                        "Review minimum eligibility such as required education or age for the chosen programme."
+                },
+                {
+                    step: "Step 4",
+                    title: "Submit Application",
+                    description:
+                        "Complete the online/offline application form and enter personal and academic details. Upload/attach required documents."
+                },
+                {
+                    step: "Step 5",
+                    title: "Documentation",
+                    description:
+                        "Provide ID proof (Aadhaar/PAN/Passport), photo, 10th/12th/graduate mark sheets, address proof, and any other required certificates. Submit scanned copies if applying online."
+                },
+                {
+                    step: "Step 6",
+                    title: "Offer & Fee Payment",
+                    description:
+                        "Receive the admission offer and fee invoice upon acceptance. Pay the fees online or at the campus to confirm your seat. (Early-bird or EMI options may be available.)"
+                },
+                {
+                    step: "Step 7",
+                    title: "Enrollment Confirmation",
+                    description:
+                        "After payment, receive your official enrollment confirmation, student ID, and course commencement details."
+                },
+                {
+                    step: "Step 8",
+                    title: "Orientation",
+                    description:
+                        "Attend the orientation/onboarding session to meet mentors, understand the curriculum, and get access to learning platforms."
+                },
+                {
+                    step: "Step 9",
+                    title: "Start Classes & Projects",
+                    description:
+                        "Begin classes, hands-on projects, and mentorship sessions with full access to study materials and placement resources."
+                },
+                {
+                    step: "Step 10",
+                    title: "Placement Support",
+                    description:
+                        "Participate in mock interviews, CV workshops, and placement drives. Access BCIPL's hiring partner network for interview opportunities."
+                }
             ],
-            icon: p1
-        },
-        {
-            title: "How to Create a DEB ID?",
-            type: "steps",
-            list: [
-                "Create your ABC ID on DigiLocker (website or app).",
-                "Use the BCIPL portal link to log in with your ABC ID and activate your DEB ID."
-            ],
-            icon: p2
+            note:
+                "* If applying for a Scholarship, contact our counselors to receive a Promo Code for fee reduction."
         },
         {
             title: "Benefits After Admission",
             type: "pills",
+            icon: p3,
             list: [
                 "LMS Access",
                 "Live Videos",
@@ -398,11 +486,11 @@ export const admissionGuideData = {
                 "Alumni Meet",
                 "Workshops / Seminars",
                 "Online Support"
-            ],
-            icon: p3
-        },
-    ],
+            ]
+        }
+    ]
 };
+
 
 
 export const successStoriesData = {
@@ -423,13 +511,13 @@ export const successStoriesData = {
             text: "As a struggling job seeker, I was completely confused and unsure about my career path. BCIPL gave me the right direction, practical skills, and the confidence I was missing.",
         },
         {
-            name: "Shreya Patel",
+            name: "Rahul Saha",
             avatar: avatar3,
             rating: 5,
             text: "After struggling for a long time as a job seeker, BCIPL truly changed my life. The practical training and constant support helped me develop real, usable skills and regain my confidence.",
         },
         {
-            name: "Shreya Patel",
+            name: "Shreya Biswas",
             avatar: avatar4,
             rating: 5,
             text: "Krishnakoli Ma’am suggested the Mutual Fund course, and it honestly changed my path. With her guidance, practical training, and full support from BCIPL, I gained clarity and confidence.",

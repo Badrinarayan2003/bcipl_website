@@ -12,7 +12,7 @@ export default function Payments() {
         <>
             <Header />
             <AnnouncementHero hero={paymentHeroData} />
-<BCIPLPaymentDetails/>
+            <BCIPLPaymentDetails />
 
             <ReadyToTransform />
             <GetInTouch />

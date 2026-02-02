@@ -7,7 +7,7 @@ export default function AddmissionDetails({ data }) {
         <section className="pt-6 pb-24 px-6 bg-white">
             <div className="max-w-7xl mx-auto">
 
-                <div className="grid lg:grid-cols-2 gap-5 items-center">
+                <div className="grid lg:grid-cols-2 gap-5 items-start">
 
                     {/* LEFT CONTENT */}
                     <div>
@@ -73,6 +73,28 @@ export default function AddmissionDetails({ data }) {
                                                     {item.description}
                                                 </p>
                                             )}
+
+                                            {item.type === "detailedSteps" && (
+                                                <div className="space-y-4 mt-2">
+                                                    {item.list.map((step, i) => (
+                                                        <div key={i}>
+                                                            <p className="text-orange-600 font-semibold text-sm">
+                                                                {step.step}: {step.title}
+                                                            </p>
+                                                            <p className="text-gray-600 text-sm leading-relaxed mt-1">
+                                                                {step.description}
+                                                            </p>
+                                                        </div>
+                                                    ))}
+
+                                                    {item.note && (
+                                                        <p className="text-orange-600 text-sm italic mt-4">
+                                                            {item.note}
+                                                        </p>
+                                                    )}
+                                                </div>
+                                            )}
+
                                         </div>
 
                                     </div>

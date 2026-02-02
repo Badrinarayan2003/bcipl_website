@@ -58,69 +58,48 @@ export default function StudentJourney() {
                 </div>
 
                 {/* Layout */}
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
+                <div className="hidden lg:grid grid-cols-3 gap-10 items-center">
 
-                    {/* LEFT STEPS */}
                     <div className="flex flex-col gap-8">
-                        <JourneyCard
-                            no={1}
-                            title="Discovery & Counseling"
-                            quote='"Google Baba, Guide Me!"'
-                            img={step1}
-                        />
-
-                        <JourneyCard
-                            no={3}
-                            title="Learning Phase"
-                            quote='"CAGR Finally Makes Sense!"'
-                            img={step3}
-                        />
-
-                        <JourneyCard
-                            no={5}
-                            title="Exam & Certification"
-                            quote='"Easy Tha... Thoda."'
-                            img={step5}
-                        />
+                        <JourneyCard no={1} title="Discovery & Counseling" quote='"Google Baba, Guide Me!"' img={step1} />
+                        <JourneyCard no={3} title="Learning Phase" quote='"CAGR Finally Makes Sense!"' img={step3} />
+                        <JourneyCard no={5} title="Exam & Certification" quote='"Easy Tha... Thoda."' img={step5} />
                     </div>
 
-                    {/* CENTER IMAGE */}
                     <div className="flex justify-center">
-                        <div className="relative">
-                            <img
-                                src={centerImg}
-                                alt="Student"
-                                className="rounded-3xl max-h-[520px] object-cover shadow-lg"
-                            />
-
-                        </div>
+                        <img src={centerImg} alt="Student" className="rounded-3xl max-h-[520px] object-cover shadow-lg" />
                     </div>
 
-                    {/* RIGHT STEPS */}
                     <div className="flex flex-col gap-8">
-                        <JourneyCard
-                            no={2}
-                            title="Admission & First-Day Vibes"
-                            quote='"Ma, I’m Doing Something Big!"'
-                            img={step2}
-                        />
-
-                        <JourneyCard
-                            no={4}
-                            title="Practice & Confidence Boost"
-                            quote='"Sir, Now I’ll Explain!"'
-                            img={step4}
-                        />
-
-                        <JourneyCard
-                            no={6}
-                            title="Placement & Alumni Life"
-                            quote='"BCIPL Changed Everything"'
-                            img={step6}
-                        />
+                        <JourneyCard no={2} title="Admission & First-Day Vibes" quote='"Ma, I’m Doing Something Big!"' img={step2} />
+                        <JourneyCard no={4} title="Practice & Confidence Boost" quote='"Sir, Now I’ll Explain!"' img={step4} />
+                        <JourneyCard no={6} title="Placement & Alumni Life" quote='"BCIPL Changed Everything"' img={step6} />
                     </div>
 
                 </div>
+
+                <div className="lg:hidden flex flex-col gap-8">
+
+                    <JourneyCard no={1} title="Discovery & Counseling" quote='"Google Baba, Guide Me!"' img={step1} />
+                    <JourneyCard no={2} title="Admission & First-Day Vibes" quote='"Ma, I’m Doing Something Big!"' img={step2} />
+                    <JourneyCard no={3} title="Learning Phase" quote='"CAGR Finally Makes Sense!"' img={step3} />
+
+                    <img
+                        src={centerImg}
+                        alt="Student"
+                        className="rounded-3xl max-h-[360px] object-cover shadow-lg mt-6"
+                    />
+
+                    <JourneyCard no={4} title="Practice & Confidence Boost" quote='"Sir, Now I’ll Explain!"' img={step4} />
+                    <JourneyCard no={5} title="Exam & Certification" quote='"Easy Tha... Thoda."' img={step5} />
+                    <JourneyCard no={6} title="Placement & Alumni Life" quote='"BCIPL Changed Everything"' img={step6} />
+
+
+                </div>
+
+
+
+
 
             </div>
         </section>

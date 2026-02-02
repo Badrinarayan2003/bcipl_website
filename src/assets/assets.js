@@ -33,6 +33,7 @@ import experts6 from './images/experts6.png';
 import SuccessStories1 from './images/SuccessStories1.png';
 import SuccessStories2 from './images/SuccessStories2.png';
 import SuccessStories3 from './images/SuccessStories3.png';
+import SuccessStories4 from './images/SuccessStories4.jpg';
 import course2 from './images/course2.png';
 import course3 from './images/course3.png';
 import cta_girl from './images/cta_girl.png';
@@ -179,5 +180,6 @@ export {
     payment,
     admission,
     scholarship,
+    SuccessStories4,
 
 };

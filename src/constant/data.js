@@ -407,7 +407,7 @@ export const admissionGuideData = {
 
 export const successStoriesData = {
     title: "Success Stories",
-    subtitle: "What our learners say about the BCTFL experience",
+    subtitle: "What our learners say about the BCIPL experience",
 
     items: [
         {

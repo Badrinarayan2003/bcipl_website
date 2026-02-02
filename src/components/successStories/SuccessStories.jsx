@@ -4,6 +4,7 @@ import {
     SuccessStories1,
     SuccessStories2,
     SuccessStories3,
+    SuccessStories4,
 } from "../../assets/assets";
 
 const stories = [
@@ -27,7 +28,7 @@ const stories = [
     },
     {
         name: "Amit Kumar",
-        img: SuccessStories1,
+        img: SuccessStories4,
         rating: 5,
         text: "The mentors at BCIPL are extremely supportive and the course structure is very practical. I finally feel job-ready and confident in interviews.",
     },
@@ -69,7 +70,7 @@ export default function SuccessStories() {
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-black">Success Stories</h2>
                     <p className="text-gray-500 mt-2">
-                        What our learners say about the BCTFI experience
+                        What our learners say about the BCIPL experience
                     </p>
                 </div>
 

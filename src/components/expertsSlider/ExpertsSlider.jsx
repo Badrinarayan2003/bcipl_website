@@ -118,7 +118,7 @@ export default function ExpertsSlider() {
                                         <img
                                             src={item.img}
                                             alt={item.name}
-                                            className="w-full h-[300px] object-cover"
+                                            className="w-full h-[330px] object-cover"
                                         />
                                     </div>
 

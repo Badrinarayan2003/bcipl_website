@@ -21,7 +21,7 @@ const experts = [
     {
         name: "Mr. Ranjan Nagarkatte",
         role: "CEO Intrasoft Solution",
-        org: "14+ years in Banking",
+        org: "",
         img: experts2,
         tags: ["Risk Management", "Compliance", "Credit Analysis"],
         bg: "bg-[#ffd2a1]",

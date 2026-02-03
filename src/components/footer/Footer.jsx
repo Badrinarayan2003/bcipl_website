@@ -224,7 +224,7 @@ export default function Footer() {
                 <div>
                   <p className="font-semibold">Experience Centre</p>
                   <p>
-                    Bidhannagar, Salt Lake City, Kolkata-700091
+                    Amp Vaisaakkhi Mall, 4th Floor, 402, AG Block-112, Sector-II, Bidhannagar, Salt Lake City, Kolkata-700091
                   </p>
                 </div>
               </div>

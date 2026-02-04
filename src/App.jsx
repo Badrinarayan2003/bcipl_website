@@ -16,6 +16,7 @@ import Payments from './screens/payments/Payments'
 import Workshop from './screens/workshop/Workshop'
 import Recruitment from './screens/recruitment/Recruitment'
 import Accreditation from './screens/accreditation/Accreditation'
+import Faq from './screens/faq/Faq'
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/resources/announcements" element={<Announcement />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/faqs" element={<Faq />} />
         <Route path="/privacy-policy" element={<Policy />} />
         <Route path="/resources/scholarship" element={<Scholarship />} />
         <Route path="/resources/admission" element={<Admission />} />

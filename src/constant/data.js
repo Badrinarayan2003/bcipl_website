@@ -291,6 +291,11 @@ export const policyHeroData = {
     subtitle: "Please read this Privacy Policy carefully to understand how BCIPL collects, uses, stores, and protects your personal information.",
     image: terms,
 };
+export const faqHeroData = {
+    title: "Frequently Asked Questions",
+    subtitle: "Find answers to common questions about BCIPL's programs, admissions, and student support.",
+    image: terms,
+};
 
 export const schoolarshipHeroData = {
     title: "BCIPL Scholarship",

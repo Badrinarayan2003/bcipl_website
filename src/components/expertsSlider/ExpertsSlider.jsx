@@ -26,14 +26,14 @@ const experts = [
         tags: ["Risk Management", "Compliance", "Credit Analysis"],
         bg: "bg-[#ffd2a1]",
     },
-    {
-        name: "Mr. Arup Dasgupta",
-        role: "Principal Consultant",
-        org: "Ex MD/CEO OF LIC BANGLADESH FCMA,MBA,LLB,FIII,MSC",
-        img: experts3,
-        tags: ["Life Insurance", "Underwriting", "Product Marketing"],
-        bg: "bg-[#dff7b5]",
-    },
+    // {
+    //     name: "Mr. Arup Dasgupta",
+    //     role: "Principal Consultant",
+    //     org: "Ex MD/CEO OF LIC BANGLADESH FCMA,MBA,LLB,FIII,MSC",
+    //     img: experts3,
+    //     tags: ["Life Insurance", "Underwriting", "Product Marketing"],
+    //     bg: "bg-[#dff7b5]",
+    // },
 
     {
         name: "Sarmistha Mazumder",

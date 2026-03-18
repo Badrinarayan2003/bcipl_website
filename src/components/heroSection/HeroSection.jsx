@@ -9,7 +9,7 @@ const slides = [
             "The goal of BCIPL, a professional training facility, is to cultivate talented individuals with expertise in banking, finance, insurance, taxation, and the stock market. Under the direction of Mr. Bijoy Mondal, a global award winner, we provide industry-focused training, practical instruction, and robust placement assistance to equip students for high-growth careers.",
         points: [
             "Structured learning pathways with industry-aligned curriculum.",
-            "Real-world project exposure with 100% placement guarantee.",
+            "Real-world project exposure with 100% placement assistance.",
             "Mentorship from seasoned finance leaders.",
         ],
         bg: hero_banner,
@@ -22,7 +22,7 @@ const slides = [
             "The goal of BCIPL, a professional training facility, is to cultivate talented individuals with expertise in banking, finance, insurance, taxation, and the stock market. Under the direction of Mr. Bijoy Mondal, a global award winner, we provide industry-focused training, practical instruction, and robust placement assistance to equip students for high-growth careers.",
         points: [
             "Structured learning pathways with industry-aligned curriculum.",
-            "Real-world project exposure with 100% placement guarantee.",
+            "Real-world project exposure with 100% placement assistance.",
             "Mentorship from seasoned finance leaders.",
         ],
         bg: hero_banner1,
@@ -35,7 +35,7 @@ const slides = [
             "The goal of BCIPL, a professional training facility, is to cultivate talented individuals with expertise in banking, finance, insurance, taxation, and the stock market. Under the direction of Mr. Bijoy Mondal, a global award winner, we provide industry-focused training, practical instruction, and robust placement assistance to equip students for high-growth careers.",
         points: [
             "Structured learning pathways with industry-aligned curriculum.",
-            "Real-world project exposure with 100% placement guarantee.",
+            "Real-world project exposure with 100% placement assistance.",
             "Mentorship from seasoned finance leaders.",
         ],
         bg: hero_banner2,
@@ -127,11 +127,11 @@ export default function HeroSection() {
                             >
                                 Enroll Now ↗
                             </button>
-                            <button className="bg-secondary cursor-pointer text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition"
+                            {/* <button className="bg-secondary cursor-pointer text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition"
                                 onClick={() => navigate("/courses/banking-next-career-program")}
                             >
                                 Courses ↗
-                            </button>
+                            </button> */}
                         </div>
                     </div>
 

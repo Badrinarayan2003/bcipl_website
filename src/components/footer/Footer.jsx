@@ -87,7 +87,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.youtube.com/@bijoymondal5265"
+                href="https://www.youtube.com/watch?v=XiDcwQkkYSA&list=PLAWyhBiPaN38orJ0bWZDcahZ5hqjyJ3PB&index=2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary cursor-pointer"
@@ -172,8 +172,9 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Company</h4>
             <ul className="space-y-2 text-gray-600 text-sm">
+              <li><Link to="/" className="hover:text-primary cursor-pointer transition">Home</Link></li>
               <li><Link to="/about" className="hover:text-primary cursor-pointer transition">About Us</Link></li>
-              <li><Link to="/careers" className="hover:text-primary cursor-pointer transition">Career with us</Link></li>
+              {/* <li><Link to="/careers" className="hover:text-primary cursor-pointer transition">Career with us</Link></li> */}
               <li><Link to="/contact" className="hover:text-primary cursor-pointer transition">Contact</Link></li>
               <li><Link to="/faqs" className="hover:text-primary cursor-pointer transition">FAQs</Link></li>
             </ul>
@@ -184,6 +185,7 @@ export default function Footer() {
             <h4 className="font-bold mb-4">Legals</h4>
             <ul className="space-y-2 text-gray-600 text-sm">
               <li><Link to="/privacy-policy" className="hover:text-primary cursor-pointer transition">Refund & Cancellation Policy</Link></li>
+              <li><Link to="/website-legal-disclaimer" className="hover:text-primary cursor-pointer transition">Website Legal Disclaimer</Link></li>
               <li><Link to="/privacy-policy" className="hover:text-primary cursor-pointer transition">Website disclaimer</Link></li>
               <li><Link to="/privacy-policy" className="hover:text-primary cursor-pointer transition">Student Enrollment Agreement</Link></li>
               <li><Link to="/privacy-policy" className="hover:text-primary cursor-pointer transition">Website Code of Conduct</Link></li>

@@ -87,9 +87,10 @@ export default function GetInTouch() {
                     <div className="w-full h-[360px] md:h-[420px] rounded-3xl overflow-hidden shadow">
                         <iframe
                             title="BCIPL Location"
-                            src="https://www.google.com/maps?q=Kolkata&output=embed"
+                            src="https://www.google.com/maps?q=22.59951784712501,88.42289782980782&z=17&output=embed"
                             className="w-full h-full border-0"
                             loading="lazy"
+                            allowFullScreen
                         ></iframe>
                     </div>
 

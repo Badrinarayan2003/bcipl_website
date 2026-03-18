@@ -15,7 +15,7 @@ export default function Accreditation() {
             <AnnouncementHero hero={accreditationsHeroData} />
 
             <UniversityPathway />
-<HiringAdFlow/>
+            <HiringAdFlow />
             <ReadyToTransform />
             <GetInTouch />
             <Footer />

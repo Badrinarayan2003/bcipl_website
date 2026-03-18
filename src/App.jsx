@@ -17,6 +17,7 @@ import Workshop from './screens/workshop/Workshop'
 import Recruitment from './screens/recruitment/Recruitment'
 import Accreditation from './screens/accreditation/Accreditation'
 import Faq from './screens/faq/Faq'
+import WebsiteLegalDisclaimer from './screens/websiteLegalDisclaimer/WebsiteLegalDisclaimer'
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/faqs" element={<Faq />} />
         <Route path="/privacy-policy" element={<Policy />} />
+        <Route path="/website-legal-disclaimer" element={<WebsiteLegalDisclaimer />} />
         <Route path="/resources/scholarship" element={<Scholarship />} />
         <Route path="/resources/admission" element={<Admission />} />
         <Route path="/resources/payments-details" element={<Payments />} />

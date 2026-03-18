@@ -291,6 +291,11 @@ export const policyHeroData = {
     subtitle: "Please read this Privacy Policy carefully to understand how BCIPL collects, uses, stores, and protects your personal information.",
     image: terms,
 };
+export const disclemerHeroData = {
+    title: "Website Legal Disclaimer",
+    subtitle: "Please read this disclaimer carefully to understand the terms, limitations, and legal responsibilities associated with using our website.",
+    image: terms,
+};
 export const faqHeroData = {
     title: "Frequently Asked Questions",
     subtitle: "Find answers to common questions about BCIPL's programs, admissions, and student support.",
@@ -504,19 +509,19 @@ export const successStoriesData = {
 
     items: [
         {
-            name: "Ronny",
+            name: "Soumyajit Banerjee",
             avatar: avatar1,
             rating: 5,
             text: "BCIPL offers hands-on, industry-focused training with very supportive faculty. The concepts are explained in a simple and practical way, which really helped build my confidence. The learning environment is excellent.",
         },
         {
-            name: "Vivek Singh",
+            name: "Ritwick Mukherjee",
             avatar: avatar2,
             rating: 5,
             text: "As a struggling job seeker, I was completely confused and unsure about my career path. BCIPL gave me the right direction, practical skills, and the confidence I was missing.",
         },
         {
-            name: "Rahul Saha",
+            name: "Debayan Bhattacharya",
             avatar: avatar3,
             rating: 5,
             text: "After struggling for a long time as a job seeker, BCIPL truly changed my life. The practical training and constant support helped me develop real, usable skills and regain my confidence.",
@@ -534,7 +539,7 @@ export const successStoriesData = {
             text: "The faculty and mentorship at BCIPL are truly the best in Kolkata. The way they teach with real-life practical examples makes a huge difference. It honestly feels like they care.",
         },
         {
-            name: "Vivek Singh",
+            name: "Anirban Das",
             avatar: avatar6,
             rating: 5,
             text: "Payel Ma’am supported me at every step and always motivated me. He was very helpful and kind. With the training at BCIPL, I slowly gained my confidence and skills.",

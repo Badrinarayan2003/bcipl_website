@@ -9,25 +9,25 @@ import {
 
 const stories = [
     {
-        name: "Ronny",
+        name: "Soumyajit Banerjee",
         img: SuccessStories1,
         rating: 5,
         text: "BCIPL offers hands-on, industry-focused training with very supportive faculty. The concepts are explained in a simple and practical way, which really helped build my confidence. The learning is...",
     },
     {
-        name: "Vivek Singh",
+        name: "Ritwick Mukherjee",
         img: SuccessStories2,
         rating: 5,
         text: "As a struggling job seeker, I was completely confused and unsure about my career path. BCIPL gave me the right direction, practical skills, and the confidence I was missing. The training is...",
     },
     {
-        name: "Amit Roy",
+        name: "Debayan Bhattacharya",
         img: SuccessStories3,
         rating: 4,
         text: "After struggling for a long time as a job seeker, BCIPL truly changed my life. The practical training and constant support helped me develop real, usable skills and regain my confidence. Today, I’m...",
     },
     {
-        name: "Amit Kumar",
+        name: "Anirban Das",
         img: SuccessStories4,
         rating: 5,
         text: "The mentors at BCIPL are extremely supportive and the course structure is very practical. I finally feel job-ready and confident in interviews.",

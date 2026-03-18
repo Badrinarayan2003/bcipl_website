@@ -41,7 +41,7 @@ export default function Header() {
         { label: "Announcements", slug: "/resources/announcements" },
         { label: "Scholarship", slug: "/resources/scholarship" },
         { label: "Admission", slug: "/resources/admission" },
-        { label: "Payments Details", slug: "/resources/payments-details" },
+        { label: "Payment Details", slug: "/resources/payments-details" },
     ];
 
     const Dropdown = ({ title, items }) => {
@@ -92,7 +92,7 @@ export default function Header() {
                         ...c,
                         slug: `/courses/${c.slug}`
                     }))} />
-                    <Dropdown title="Recourses" items={resourcesMenu} />
+                    <Dropdown title="Resources" items={resourcesMenu} />
 
                     <Link to="/contact" className="font-medium cursor-pointer hover:text-primary transition">
                         Contact Us
